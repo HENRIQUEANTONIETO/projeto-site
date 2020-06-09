@@ -7,10 +7,35 @@ body{
     background-color: rgb(240, 220, 220) ;
 }
 
+article img{
+    float: right;
+}
+
+h1, h2 {
+    color: rgb(49, 17, 129);
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 20px;
+}
+
 main{
     background-color: white;
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+}
+
+a{
+    text-decoration: none;
+}
+
+a p {
+    color: rgb(49, 17, 129);
+    font-weight: 700;
 }
